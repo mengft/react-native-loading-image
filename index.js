@@ -2,7 +2,7 @@
  * @Author: fantao.meng
  * @Date: 2018-08-20 16:57:10
  * @Last Modified by: fantao.meng
- * @Last Modified time: 2018-09-19 23:54:42
+ * @Last Modified time: 2018-09-20 00:21:01
  */
 
 import React from 'react';
@@ -137,7 +137,7 @@ export default class LoadImage extends React.Component {
     			? <Image source={defaultSource} style={[{ position: 'absolute' }, style]} />
     			: 
 				<View style={[{
-						justifyContent: 'center', backgroundColor: Colors.C7, position: 'absolute', alignItems: 'center',
+						justifyContent: 'center', backgroundColor: '#eceff4', position: 'absolute', alignItems: 'center',
 					}, style]}
 				/>
     	);
